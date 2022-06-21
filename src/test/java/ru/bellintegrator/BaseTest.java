@@ -32,6 +32,6 @@ public class BaseTest {
      */
     @AfterEach
     public void closeWindow() {
-//        chromeDriver.quit();
+        chromeDriver.quit();
     }
 }
